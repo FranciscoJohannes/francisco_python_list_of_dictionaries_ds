@@ -39,9 +39,16 @@ books = [
 for book in books:
     print(f"Name: {book.get('name')}, title: {book.get('title')}, id: {book.get('id')} genre: {book.get('genre')}, ISBN: {book.get('ISBN')}, stock: {book.get('stock')}, price: {book.get('price')}")
 
+universities = [
+{"name": "University of the Philippines", "location": "Quezon City", "id": 1, "Established_Year": "1908", "type": "Public", "website": "www.up.edu.ph"},
+{"name": "Ateneo de Manila University", "location": "Quezon City", "id": 2, "Established_Year": "1859", "type": "Private", "website": "www.ateneo.edu"},
+{"name": "De La Salle University", "location": "Manila", "id": 3, "Established_Year": "1911", "type": "Private", "website": "www.dlsu.edu.ph"},
+{"name": "University of Santo Tomas", "location": "Manila", "id": 4, "Established_Year": "1611", "type": "Private", "website": "www.ust.edu.ph"},
+{"name": "Polytechnic University of the Philippines", "location": "Manila", "id": 5, "Established_Year": "1904", "type": "Public", "website": "www.pup.edu.ph"}
+]
 
-
-
+for university in universities:
+    print(f"Name: {university.get('name')}, location: {university.get('location')}, id: {university.get('id')} Established_Year: {university.get('Established_Year')}, type: {university.get('type')}, website: {university.get('website')}")
 
 
 if __name__ == '__main__':
