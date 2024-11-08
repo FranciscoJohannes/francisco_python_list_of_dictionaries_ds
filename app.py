@@ -50,6 +50,16 @@ universities = [
 for university in universities:
     print(f"Name: {university.get('name')}, location: {university.get('location')}, id: {university.get('id')} Established_Year: {university.get('Established_Year')}, type: {university.get('type')}, website: {university.get('website')}")
 
+restaurants = [
+{"name": "Vikings Luxury Buffet", "location": "Pasay City", "id": 1, "Cuisine_Type": "Buffet", "Established_Year": "2011", "website_or_contact": "www.vikings.ph"},
+{"name": "Antonio's Restaurant", "location": "Tagaytay", "id": 2, "Cuisine_Type": "Fine Dining", "Established_Year": "2002", "website_or_contact": "www.antoniosrestaurant.ph"},
+{"name": "Mesa Filipino Moderne", "location": "Makati City", "id": 3, "Cuisine_Type": "Filipino", "Established_Year": "2009", "website_or_contact": "www.mesa.ph"},
+{"name": "Manam Comfort Filipino", "location": "Quezon City", "id": 4, "Cuisine_Type": "Filipino", "Established_Year": "2013", "website_or_contact": "www.manam.ph"},
+{"name": "Ramen Nagi", "location": "Various Locations", "id": 5, "Cuisine_Type": "Japanese", "Established_Year": "2013", "website_or_contact": "www.ramennagi.com.ph"}
+]
+
+for restaurant in restaurants:
+    print(f"Name: {restaurant.get('name')}, location: {restaurant.get('location')}, id: {restaurant.get('id')} Cuisine_Type: {restaurant.get('Cuisine_Type')}, Established_Year: {restaurant.get('Established_Year')}, website_or_contact: {restaurant.get('website_or_contact')}")
 
 if __name__ == '__main__':
     app.run(debug=True)
