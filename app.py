@@ -28,6 +28,20 @@ employees = [
 for employee in employees:
     print(f"Name: {employee.get('name')}, department: {employee.get('department')}, id: {employee.get('id')} email: {employee.get('email')}, age: {employee.get('age')}")
 
+books = [
+{"name": "F. Scott Fitzgerald", "title": "SalesHuman Resources", "id": 1, "genre": "Fiction", "Published_Year": "1925", "ISBN": "978-0743273565", "stock": "20", "price": "15.99"},
+{"name": "Harper Lee", "title": "To Kill a Mockingbird", "id": 2, "genre": "Fiction", "Published_Year": "1960", "ISBN": "978-0060935467", "stock": "35", "price": "10.99"},
+{"name": "George Orwell", "title": "1984", "id": 3, "genre": "Dystopian", "Published_Year": "1949", "ISBN": "978-0451524935", "stock": "40", "price": "9.99"},
+{"name": "J.D. Salinger", "title": "The Catcher in the Rye", "id": 4, "genre": "Fiction", "Published_Year": "1951", "ISBN": "978-0316769488", "stock": "25", "price": "8.99"},
+{"name": "Stephen Hawking", "title": "A Brief History of Time", "id": 5, "genre": "Non-Fiction", "Published_Year": "1988", "ISBN": "978-0553380163", "stock": "10", "price": "18.99"}
+]
+
+for book in books:
+    print(f"Name: {book.get('name')}, title: {book.get('title')}, id: {book.get('id')} genre: {book.get('genre')}, ISBN: {book.get('ISBN')}, stock: {book.get('stock')}, price: {book.get('price')}")
+
+
+
+
 
 
 if __name__ == '__main__':
