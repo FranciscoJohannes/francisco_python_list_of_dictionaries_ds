@@ -15,11 +15,18 @@ products = [
 ]
 
 for product in products:
-    print(f"Name: {product.get('name')}, category: {product.get('section')}, id: {product.get('email')} supplier: {product.get('supplier')}, price: {product.get('price')}")
+    print(f"Name: {product.get('name')}, category: {product.get('section')}, id: {product.get('id')} supplier: {product.get('supplier')}, price: {product.get('price')}")
 
+employees = [
+{"name": "John Doe", "department": "SalesHuman Resources", "id": 1, "email": "john.doe@company.com", "age": 30},
+{"name": "Jane Smith", "department": "Electronics", "id": 2, "email": "jane.smith@company.com", "age": 25},
+{"name": "Mark Johnson", "department": "IT", "id": 3, "email": "mark.johnson@company.com", "age": 40},
+{"name": "Lisa Wong", "department": "Marketing", "id": 4, "email": "lisa.wong@company.com", "age": 28},
+{"name": "Paul McDonald", "department": "Finance", "id": 5, "email": "paul.mcdonald@company.com", "age": 35}
+]
 
-
-
+for employee in employees:
+    print(f"Name: {employee.get('name')}, department: {employee.get('department')}, id: {employee.get('id')} email: {employee.get('email')}, age: {employee.get('age')}")
 
 
 
